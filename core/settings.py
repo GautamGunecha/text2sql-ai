@@ -51,8 +51,8 @@ INSTALLED_APPS = [
     'whitenoise.runserver_nostatic',
 
     # Local apps
-    'api.apps.ApiConfig',
-    'ml_model.apps.MlModelConfig',
+    'apps.api',
+    'apps.ml_model',
 ]
 
 MIDDLEWARE = [
